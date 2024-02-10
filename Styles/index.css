@@ -1,0 +1,60 @@
+.contenedor_list ul li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.contenedor_list ul li :hover {
+    font-size: 20px;
+    font-weight: 400;
+    transition: 300ms;
+}
+.contendedor_form {
+    background-image: url(../Images/imgfondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formulario {
+    background-color: rgba(184, 184, 184, 0.637);
+    border-radius: 15px;
+}
+.imgcourses {
+    padding: 15vh;
+    padding-top: 0px;
+}
+.imgcourses img{
+    border-radius: 20px;
+}
+.imgcourses img:hover {
+    opacity: 40%;
+    transition: 300ms;
+}
+.titulo_cursos {
+    text-align: center;
+
+}
+footer li {
+    list-style: none;
+}
+.iconos-redes-sociales a {
+    width: 50px; /*ancho fijo*/
+    height: 50px; /*altura fija*/
+    display: flex; /*caja flexible*/
+    align-items: center; /*alineacion vertical centrado*/
+    justify-content: center; /*alineacion horizontal centrado*/
+    padding: 2px; /*padding < border < margin*/
+    margin: 10px; /*padding < border < margin*/
+    border: 2px solid white; /*padding < border < margin*/
+    border-radius: 50%; /*radio de borde*/
+    transition: all 0.2s ease-in; /*transicion*/
+}
+.iconos-redes-sociales i {
+    color: white; /*color de letra*/
+    font-size: 1.5rem; /*tamaño de letra*/
+    transition: all 0.2s ease-in; /*transicion*/
+}
+.iconos-redes-sociales a:hover {
+    background-color: white; /*color de letra*/
+    border: 2px solid rgb(124, 0, 0); /*padding < border < margin*/
+}
+  .iconos-redes-sociales a:hover i {
+    color: black; /*color de letra*/
+}
