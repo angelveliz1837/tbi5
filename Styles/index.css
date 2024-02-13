@@ -16,9 +16,12 @@
     background-color: rgba(184, 184, 184, 0.637);
     border-radius: 15px;
 }
+.button_ws {
+    position: relative;
+}
 .imgcourses {
-    padding: 15vh;
-    padding-top: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .imgcourses img{
     border-radius: 20px;
@@ -28,11 +31,24 @@
     transition: 300ms;
 }
 .titulo_cursos {
-    text-align: center;
-
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
 }
 footer li {
     list-style: none;
+}
+footer li a{
+    color: white;
+    text-decoration: none;
+}
+.contenido_secundario p {
+    color: white;
+    font-size: 20px;
+}
+.contenedor_texto_secundario {
+    padding: 50px;
 }
 .iconos-redes-sociales a {
     width: 50px; /*ancho fijo*/

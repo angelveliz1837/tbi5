@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+        <!--Conexión de Bootstrap - CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- Iconos de Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../Styles/index.css">
+</head>
+<body>
+        <!--Header-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="../Images/logoicono.png" alt="Avatar Logo" style="width:60px;" class="rounded-pill">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse contenedor_list" id="navbarSupportedContent">
+                <ul class="nav navbar-nav me-auto mb-2 mb-lg-0"> 
+                    <li class="nav-item">
+                      <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Professional Careers</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://sites.google.com/view/portafolio-virtual-idept/inicio?fbclid=IwAR2_eXW0NVs3dNMgy4y8fbLbrhThOIJdtJBAbmXjyyZICgwiF_7yoTDqv-Q" target="_blank">Blog</a>
+                      </li>
+                  </ul>
+                <div class="d-flex">
+                  <button class="btn btn-outline-success pl-2 pr-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Register</button>
+                </div>
+              </div>
+            </div>
+          </nav>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <form class="container formulariomodal" action="">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Register your Registration</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <input type="text" class="form-control mb-2" placeholder="Names*">
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control mb-2" placeholder="Last Name*">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control mb-2" placeholder="Second last Name*">
+                  </div>
+                </div>
+                <input type="email" class="form-control mb-2" placeholder="Email*">
+                <div class="row">
+                  <div class="col">
+                    <input type="number" class="form-control mb-2" placeholder="Real ID*">
+                  </div>
+                  <div class="col">
+                    <input type="number" class="form-control mb-2" placeholder="Cell Phone Number*">
+                  </div>
+                </div>
+                <select class="form-select mb-2" id="floatingSelect" aria-label="Floating label select example*">
+                  <option selected>Select a City of Origin*</option>
+                  <option value="1">City 1</option>
+                  <option value="2">City 2</option>
+                  <option value="3">City 3</option>
+              </select>
+              <select class="form-select mb-2" id="floatingSelect" aria-label="Floating label select example*">
+                <option selected>Select a Career*</option>
+                <option value="1">Career 1</option>
+                <option value="2">Career 2</option>
+                <option value="3">Career 3</option>
+            </select>
+            <p>
+              <span><input type="checkbox" name="" id=""></span>
+              <span>I authorise the processing of my personal data for information purposes.</span>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+
+        <!-- Lista de Cursos -->
+        <section>
+            <div class="container">
+              <div class="row">
+                <div class="col-12 centrado">
+                  <h2 class="seccion-titulo">
+                    Continuing Education and Training Services TBI
+                  </h2>
+                </div>
+                <div class="col-6 seccion-descripcion">
+                  <h2>Regular Courses</h2>
+                  <ul>
+                    <li>Accounting in QuickBooks</li>
+                    <li>Bookkeeper</li>
+                    <li>Paralegal</li>
+                    <li>English</li>
+                    <li>Spanish</li>
+                    <li>Real State</li>
+                    <li>Marketing Digital</li>
+                    <li>Excel</li>
+                  </ul>
+                </div>
+                <div class="col-6 seccion-descripcion">
+                  <h2>Specific Courses (max 20 hours)</h2>
+                  <ul>
+                    <li>QuickBooks Online *</li>
+                    <li>QuickBooks Desktop*</li>
+                    <li>Income Tax *</li>
+                    <li>Corporate Taxes*</li>
+                    <li>Citizenship Course</li>
+                    <li>Payroll</li>
+                    <li>Office (Word, Excel, PPT)</li>
+                    <li>Oratoria</li>
+                    <li>Formas de Inmigracion</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+      
+          <!-- Seminarios -->
+          <section>
+            <div class="container">
+              <div class="row">
+                <div class="col-12 centrado">
+                  <h2 class="seccion-titulo">Seminars (1 - 6 hours)</h2>
+                </div>
+                <div class="col-6 seccion-descripcion">
+                  <ul>
+                    <li>How to star a business in USA</li>
+                    <li>Import and Export</li>
+                    <li>Corporations</li>
+                    <li>Learning to use QuickBooks online and QuickBooks desktop</li>
+                    <li>How to fix your credit</li>
+                    <li>Personal finance</li>
+                    <li>Taller de Ciudadania Americana</li>
+                  </ul>
+                </div>
+                <div class="col-6 seccion-descripcion">
+                  <ul>
+                    <li>New business opportunities in Florida</li>
+                    <li>Seminar for first home buyers</li>
+                    <li>Investments in the stock market</li>
+                    <li>
+                      Starting to live in the United States opportunities and the
+                      American system
+                    </li>
+                    <li>Citizenship</li>
+                    <li>Immigration</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+      
+          <!-- Cursos de Ciudadania -->
+          <section>
+            <div class="container">
+              <div class="row">
+                <div class="col-12 centrado">
+                  <h2 class="seccion-titulo">
+                    Curso de Ciudadania Americana Metodología presencial o virtual
+                  </h2>
+                </div>
+                <div class="col-12 centrado">
+                  <p class="seccion-descripcion educacion-descripcion">
+                    Bienvenidos al Curso de Ciudadania Americana. Esta clase esta
+                    diseñada para que el participante se ponga al dia lo mas rapido
+                    posible con el ingles conversacional usado a lo largo de la
+                    entrevista con un oficial de USCIS. Las clases tienen video,
+                    audio, examenes, conversación, ejercicios de escritura y lectura,
+                    revisión de la historia y datos de civica de los Estados Unidos y
+                    dialogos con los participantes. Los participantes que no puedan
+                    asistir en forma presencial pueden tomar la opción virtual.
+                  </p>
+                </div>
+                <div class="col-12 centrado">
+                  <img class="seccion-imagen" src="../imagenes/portada.svg" />
+                </div>
+              </div>
+            </div>
+          </section>
+</body>
+<!--Conexión de Bootstrap - JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="Js/index.js"></script>
+</html>
